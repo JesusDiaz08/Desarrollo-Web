@@ -120,21 +120,49 @@
 
     <!--Barra lateral-->
     <aside role="complementary">
-        <h2>Próximos cursos</h2>
-        <div>
-            <h3>Ruby</h3>
-            <img src="img/ruby.png" alt="ruby-logo" width="200" height="200">
-        </div>
+        <table width="300">
+            <caption><h2>Próximos cursos</h2></caption>
+            <thead>  <!--thead: table head se usa TH -->
+                <tr>  <!--tr: table row-->
+                    <th>Curso</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
 
-        <div>
-            <h3>Github</h3>
-            <img src="img/github.png" alt="github-logo" width="200" height="200">
-        </div>
+            <tfoot> <!--tfoot: table footer: se usa td-->
+                <tr>
+                    <td>No te lo puedes perder</td>
+                </tr>
+            </tfoot>
 
-        <div>
-            <h3>C#</h3>
-            <img src="img/csharp.png" alt="csharp-logo" height="200">
-        </div>
+            <tbody>
+                <!--Aqui utilizaremos rowspan y colspan-->
+                <tr>
+                    <td>PHP</td>
+                    <td>$99</td>
+                </tr>
+
+                <tr>
+                    <td>PHP</td>
+                    <td>$99</td>
+                </tr>
+
+                <tr>
+                    <td>PHP</td>
+                    <td>$99</td>
+                </tr>
+
+                <tr>
+                    <td>MySQL</td>
+                    <td>$129</td>
+                </tr>
+
+                <tr>
+                    <td>JAVA</td>
+                    <td>$525</td>
+                </tr>
+            </tbody>
+        </table>
     </aside>
 </div> <!--Termina el contenedor principal-->
 
