@@ -29,9 +29,19 @@
 
             <label for="sexo-form">Sexo: </label> <br>
                 <!--<input type="radio" id="sexo" name="sexo" value="Hombre" checked>Hombre <br>-->
-            <input type="radio" id="sexo" name="sexo" value="Hombre" checked autofocus>Hombre <br>
-                <input type="radio" id="sexo" name="sexo" value="Mujer">Mujer <br>
-                <input type="radio" id="sexo" name="sexo" value="Otro">Hombre <br>
+            <input type="radio" id="sexo-form" name="sexo" value="Hombre" checked autofocus>Hombre <br>
+                <input type="radio" name="sexo" value="Mujer">Mujer <br>
+                <input type="radio" name="sexo" value="Otro">Hombre <br>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong style="color: coral;">Información acerca del curso</strong></legend>
+            <label for="turno-form">Turno: </label>
+            <select name="turno" class="turno" id="turno-form">
+                <option value="matutino" >Matutino</option>
+                <option value="vespertino" selected>Vespertino</option>
+                <option value="nocturno">Nocturno</option>
+            </select>
         </fieldset>
 
         <input type="submit" value="Enviar">
