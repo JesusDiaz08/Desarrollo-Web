@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <h2><strong>Mi primer formulario</strong></h2>
+
+    <form class="formulario">
+        <!--Usando el atributo 'for' para activar haciendo click en el label
+        <label for="form-name">Nombre: </label>
+            <input type="text" name="name-user" placeholder="Nombre" id="form-name"/>
+        -->
+        <!--Usando el atributo 'autocomplete' para guardar los datos anteriores
+        <label for="form-name">Nombre: </label>
+            <input type="text" name="name-user" placeholder="Nombre" id="form-name" autocomplete="on"/>
+        -->
+        <label for="name-form">Nombre: </label>
+            <input type="text" name="name-user" id="name-form" placeholder="Nombre"/>
+        <br><br>
+        <label for="apellido-form">Apellido: </label>
+            <input type="text" name="apellido-user" id="apellido-form" placeholder="Apellido"/>
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
