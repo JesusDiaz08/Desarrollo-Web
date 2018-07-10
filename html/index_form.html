@@ -32,6 +32,11 @@
             <input type="radio" id="sexo-form" name="sexo" value="Hombre" checked autofocus>Hombre <br>
                 <input type="radio" name="sexo" value="Mujer">Mujer <br>
                 <input type="radio" name="sexo" value="Otro">Hombre <br>
+
+            <br>
+            <label for="fecha-cumple">Fecha de cumpleaños</label>
+                <input type="date" name="fecha" id="fecha-cumple">
+                <!--<input type="datetime-local" name="fecha" id="fecha-cumple">-->
         </fieldset>
 
         <fieldset>
@@ -61,11 +66,27 @@
                 <input type="checkbox" name="mongodb"/>  MongoDB <br>
                 <input type="checkbox" name="javascript"/> JavaScript <br>
                 <input type="checkbox" name="mysql"/> MySQL <br>
+
+            <br>
+            <label for="fecha-cursos">Fecha para iniciar el curso</label>
+                <input type="month" name="mes" id="fecha-cursos"/>
+                <input type="time" name="time" />
+                <input type="week" name="semana" />
         </fieldset>
 
-        <button type="">Borrar</button>
-        <button type="submit">Enviar</button>
-        <button type="button">Otro</button>
+        <br>
+
+        <fieldset>
+            <legend><strong style="color:coral">Extra</strong></legend>
+            <label for="color-camisa">¡Las primeras 10 personas reciben camisa gratis!</label>
+            <label for="color-camisa">Elige el color: </label>
+            <input type="color" name="color" id="color-camisa"/>
+
+
+        </fieldset>
+
+        <button type="reset">Borrar</button>
+        <!-- <button type="submit">Enviar</button> -->
         <input type="submit" value="Enviar">
     </form>
 </body>
