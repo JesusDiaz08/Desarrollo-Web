@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
@@ -45,14 +45,22 @@
 
             <br><br>
 
-            <label>Cursos de interés</label>
-                <input list="propuesta" name="encuesta">
+            <label for="propuesta">Cursos de interés: </label>
+                <input list="propuesta" name="encuesta" />
                 <datalist id="propuesta">
                     <option value="JQuery">
                     <option value="AngularJS">
                     <option value="MongoDB">
                     <option value="Bootstrap">
                 </datalist>
+
+            <br><br>
+
+            <label for="opciones-cursos">Elegir cursos: </label> <br>
+                <input type="checkbox" name="php"/> PHP <br>
+                <input type="checkbox" name="mongodb"/>  MongoDB <br>
+                <input type="checkbox" name="javascript"/> JavaScript <br>
+                <input type="checkbox" name="mysql"/> MySQL <br>
         </fieldset>
 
         <input type="submit" value="Enviar">
