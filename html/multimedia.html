@@ -5,15 +5,25 @@
     <title>Multimedia: Audio y Video en HTML</title>
 </head>
 <body>
-    <h2>Videos para HTML5</h2>
-    <video src="video/codigo.ogv" controls>
-        <p>Tu navegador no soporta video</p>
-    </video>
-
-    <h2>Audio en HTML5</h2>
-    <audio src="audio/audio.oga" controls>
-        <p>Tu navegador no soporta el audio.</p>
-    </audio>
+    <fieldset>
+        <legend><strong style="color: crimson">Videos en HTML5</strong></legend>
+        <video controls>
+            <!--Different resources to different browsers-->
+            <source src="video/codigo.mp4" type="video/mp4">
+            <source src="video/codigo.ogv" type="video/ogg">
+            <source src="video/codigo.webm" type="video/webm">
+            <p>Tu navegador no soporta video</p>
+        </video>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend><strong style="color:crimson">Audio en HTML5</strong></legend>
+        <audio controls>
+            <source src="audio/audio.m4a" type="audio/mp4">
+            <source src="audio/audio.oga" type="audio/ogg">
+            <p>Tu navegador no soporta el audio.</p>
+        </audio>
+    </fieldset>
 
 </body>
 </html>
