@@ -1,5 +1,8 @@
 h2{
+    background: black;
     color: darkorange;
+    text-transform: uppercase;
+    padding: 10px;
 }
 
 p{
