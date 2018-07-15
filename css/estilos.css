@@ -8,3 +8,11 @@ h2{
 p{
     font-size: 20px;
 }
+
+#introduccion{ /*Selector de ID*/
+    color: darkblue;
+}
+
+.logo-contenedor{
+    background: sienna;
+}
