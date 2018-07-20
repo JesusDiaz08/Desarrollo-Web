@@ -13,7 +13,9 @@
 .rojo{
     color:red;
 }
-
+.rojo{
+    color: orangered;
+}
 .logo{
     margin-top: 200px;
 }
@@ -21,4 +23,13 @@
 /*Selectores con clase y ID's*/
 #titulo.titulo{
     font-size: 60px;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+/*Selectores con dos clases*/
+.azul.tituloCurso{
+    color: blue ;
 }
