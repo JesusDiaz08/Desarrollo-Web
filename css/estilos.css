@@ -33,3 +33,26 @@
 .azul.tituloCurso{
     color: blue ;
 }
+
+.tituloCurso.azul{
+    color:yellowgreen;
+}
+
+/*SELECTORES CON ELEMENTOS HTML: DE ETIQUETAS*/
+p{
+    color: brown;
+
+}
+
+h3{
+    color: green;
+}
+
+h2{
+    color: orange;
+}
+
+img{
+    width: 300px;
+}
+
