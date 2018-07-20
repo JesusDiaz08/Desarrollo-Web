@@ -1,18 +1,9 @@
-h2{
-    background: black;
-    color: darkorange;
-    text-transform: uppercase;
-    padding: 10px;
+/*SELECTORES DE ID's*/
+#titulo{
+    color: crimson;
+
 }
 
-p{
-    font-size: 20px;
-}
-
-#introduccion{ /*Selector de ID*/
-    color: darkblue;
-}
-
-.logo-contenedor{
-    background: sienna;
+#logo{
+    margin-top: 200px;
 }
