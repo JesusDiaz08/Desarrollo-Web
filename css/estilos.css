@@ -56,3 +56,24 @@ img{
     width: 300px;
 }
 
+/*SELECTORES CON ELEMENTOS HTML (ETIQUETAS) Y IDs*/
+img#logo{
+    width: 600px;
+}
+
+h2#titulo{
+    color: darkgreen;
+}
+
+/*SELECTORES CON ELEMENTOS HTML(ETIQUETAS) Y CLASES.*/
+section.seccion{
+    background: gray;
+}
+
+div.noticia{
+    background: #FFFFFF;
+}
+
+img.logo{
+    
+}
