@@ -89,3 +89,21 @@ img.log{
     color: darkblue;
     font-size: 30px;
 }
+
+/*Grupo de selectores*/
+
+/*Forma 'clásica: '
+h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: uppercase;
+}
+p{
+    text-transform: uppercase;
+}
+*/
+/*Forma con grupo de selectores*/
+h2,h3,p{
+    text-transform: uppercase;
+}
