@@ -74,6 +74,18 @@ div.noticia{
     background: #FFFFFF;
 }
 
-img.logo{
-    
+img.log{
+
+}
+
+/*SELECTOR UNIVERSAL*/
+
+* {
+    color: black;
+    font-size: 20px!important;
+}
+
+#listado-cursos *{
+    color: darkblue;
+    font-size: 30px;
 }
