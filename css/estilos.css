@@ -107,3 +107,48 @@ p{
 h2,h3,p{
     text-transform: uppercase;
 }
+
+/*Selector descendiente*/
+nav#navegacion{
+    background: orange;
+}
+
+nav#navegacion ul{
+    list-style: none;
+}
+
+nav#navegacion ul li{
+    display: inline;
+}
+
+nav#navegacion ul li a{
+    color: white;
+}
+
+/*Selector con hijos*/
+section#cursos > ul{
+    border: 1px solid black;
+}
+
+ul#listado-cursos > li{
+    color: red;
+}
+
+ul#listado-cursos li ul > li{
+    color: green;
+}
+
+/*Selector con elementos adyacentes*/
+ul#listado-cursos + p{
+    background-color: red!important;
+    color: fuchsia;
+}
+
+/*Selectores para enlaces*/
+a[href*="facebook.com"]{
+    background-color: yellowgreen;
+}
+
+a[href*="google.com"]{
+    background-color: aqua;
+}
