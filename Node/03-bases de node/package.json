@@ -1,0 +1,19 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "Esta es una aplicacion de linea de comando",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JesusDiaz08/Desarrollo-Web/tree/master/Node"
+    },
+    "author": "Jesus Diaz",
+    "license": "ISC",
+    "dependencies": {
+        "yargs": "^16.0.3"
+    },
+    "devDependencies": {}
+}
