@@ -1,4 +1,4 @@
-const agrv = require('./config/yargs.js').argv;
+const argv = require('./config/yargs.js').argv;
 
 const { crearArchivo, listarTabla } = require('./multiplicar/multiplicar2');
 
